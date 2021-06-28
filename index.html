@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+        <link href="./assets/css/style.css" rel="stylesheet">
+
+        <title>Weather Dashboard</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Weather Dashboard</h1>
+        </header>
+
+        <main>
+            <div class="search-box">
+                <h1>Search by City:</h1>
+                <input type="text" name="search" id="search" value="Detroit">
+                <div id="searchBtn">Search</div>
+                <div id="history"></div>
+            </div>
+            <div class="weather-results">
+                <div class="weather-box">
+                    <h2 id="city">City</h2>
+                    <img src="" attr="" id="todayIcon">
+                    <p>Condition: <span id="condition"></span></p>
+                    <p>Temp: <span id="temp"></span></p>
+                    <p>Wind: <span id="wind"></span></p>
+                    <p>Humidity: <span id="humidity"></span></p>
+                    <p>UV Index: <span id="uvi"></span></p>
+                </div>
+                <h2>5 Day Forecast:</h2>
+                <div class="five-day-box" id="five-day-box">
+                    <div class="five-day-card">
+                        <h3>11/11/1111</h3>
+                        <img src="" attr="">
+                        <p>Temp:</p>
+                        <p>Wind:</p>
+                        <p>Humidity</p>
+                    </div>
+                    <div class="five-day-card">
+                        <h3>11/11/1111</h3>
+                        <img src="" attr="">
+                        <p>Temp:</p>
+                        <p>Wind:</p>
+                        <p>Humidity</p>
+                    </div>
+                    <div class="five-day-card">
+                        <h3>11/11/1111</h3>
+                        <img src="" attr="">
+                        <p>Temp:</p>
+                        <p>Wind:</p>
+                        <p>Humidity</p>
+                    </div>
+                    <div class="five-day-card">
+                        <h3>11/11/1111</h3>
+                        <img src="" attr="">
+                        <p>Temp:</p>
+                        <p>Wind:</p>
+                        <p>Humidity</p>
+                    </div>
+                    <div class="five-day-card">
+                        <h3>11/11/1111</h3>
+                        <img src="" attr="">
+                        <p>Temp:</p>
+                        <p>Wind:</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <script 
+            src="https://code.jquery.com/jquery-3.6.0.min.js" 
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
+            crossorigin="anonymous">
+        </script>
+        <script src="https://momentjs.com/downloads/moment.js"></script>
+        <script src="./assets/scripts/script.js"></script>
+    </body>
+</html>

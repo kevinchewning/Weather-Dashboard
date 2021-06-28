@@ -1,0 +1,121 @@
+* {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+header {
+    width: 100%;
+    padding: 10px 0;
+    background-image: url("../images/sky.JPG");
+    margin-bottom: 20px;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.search-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    flex: 0 0 25%;
+    padding: 10px;
+}
+
+.search-box h1 {
+    font-size: 1.5rem;
+    width: 90%
+}
+
+#search {
+    font-size: 1.2rem;
+    width: 90%;
+    margin: 20px 0;
+}
+
+#searchBtn {
+    font-size: 1.2rem;
+    text-align: center;
+    width: 90%;
+    padding: 5px;
+    background-color: teal;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+    user-select: none;
+}
+
+#searchBtn:active {
+    background-color: turquoise;
+}
+
+.history {
+    font-size: 1.2rem;
+    text-align: center;
+    width: 90%;
+    padding: 5px;
+    background-color: gray;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.weather-results{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 75%;
+}
+
+.weather-results h2{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.weather-box {
+    flex: 0 0 98%;
+    padding: 10px;
+    border: 2px solid black;
+    height: fit-content;
+    margin-bottom: 10px;
+}
+
+#city {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.weather-box p {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.five-day-box {
+    flex: 0 0 98%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.five-day-card {
+    flex: 0 0 18%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    border: 1px solid black;
+    padding: 10px 0 10px 10px;
+    background-color: royalblue;
+    color: white;
+}
