@@ -71,6 +71,8 @@ main {
     background-color: gray;
     border-radius: 10px;
     margin-bottom: 10px;
+    user-select: none;
+    cursor: pointer;
 }
 
 .weather-results{
