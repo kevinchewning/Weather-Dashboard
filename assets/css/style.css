@@ -57,6 +57,7 @@ main {
     margin-bottom: 20px;
     border-bottom: 1px solid black;
     user-select: none;
+    cursor: pointer;
 }
 
 #searchBtn:active {
@@ -73,6 +74,10 @@ main {
     margin-bottom: 10px;
     user-select: none;
     cursor: pointer;
+}
+
+.history:active {
+    background-color: lightgray;
 }
 
 .weather-results{
