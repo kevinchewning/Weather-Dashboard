@@ -106,7 +106,7 @@ function getWeather() {
       //remove old 5 day forecast
       $('.five-day-card').remove();
 
-      var icon = 'http://openweathermap.org/img/wn/' + data.current.weather[0].icon + '@2x.png'
+      var icon = 'https://openweathermap.org/img/wn/' + data.current.weather[0].icon + '@2x.png'
       
       //render current day weather
       city.text(cityName);
@@ -135,7 +135,7 @@ function getWeather() {
         var boxTemp = $('<p>');
         var boxWind = $('<p>');
         var boxHumidity = $('<p>');
-        var icon = 'http://openweathermap.org/img/wn/' + data.daily[i].weather[0].icon + '@2x.png';
+        var icon = 'https://openweathermap.org/img/wn/' + data.daily[i].weather[0].icon + '@2x.png';
 
         fiveDay.addClass('five-day-card');
         boxDate.text(moment().add(i, 'd').format('M/D/YY'));
