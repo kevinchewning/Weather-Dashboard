@@ -97,9 +97,19 @@ main {
     margin-bottom: 10px;
 }
 
+img {
+    width: 50px;
+    height: 50px;
+}
+
 .weather-box p {
     font-size: 1.2rem;
     margin-bottom: 5px;
+}
+
+#uvi {
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .five-day-box {
@@ -118,4 +128,8 @@ main {
     padding: 10px 0 10px 10px;
     background-color: royalblue;
     color: white;
+}
+
+.five-day-card p {
+    margin-bottom: 5px;
 }
