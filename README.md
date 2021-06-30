@@ -12,7 +12,7 @@ Download repository from https://github.com/kevinchewning/Weather-Dashboard
 
 Site can be viewed at https://kevinchewning.github.io/Weather-Dashboard/
 
-![Site Screenshot](./assets/images/wd-screenshot.PNG)
+![Site Screenshot](./assets/images/wd-screenshot.png)
 
 ## Credits
 
